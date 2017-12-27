@@ -3,7 +3,7 @@
   tags:
     - elk
   hosts: localhost
-  remote_user: sudo
+  remote_user: rahul
   become: yes
 
   roles:
