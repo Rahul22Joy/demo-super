@@ -1,0 +1,11 @@
+---
+- name: deploy ELK
+  tags:
+    - elk
+  hosts: localhost
+  remote_user: sudo
+  become: yes
+
+  roles:
+    - elk-host
+
