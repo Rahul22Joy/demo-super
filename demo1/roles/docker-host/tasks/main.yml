@@ -1,0 +1,13 @@
+- copy:
+    src: foo.txt
+    dest: /home/rahul/foo.txt
+
+- name: pip Install docker-py
+  pip:
+    name: docker-py
+    version: 1.7.2
+    state: present
+  ignore_errors: yes
+
+- name: enable docker to run as an service
+  service: name=docker state=started enabled=yes
