@@ -2,10 +2,9 @@
 - name: deploy ELK
   tags:
     - elk
-  hosts: localhost
-  remote_user: rahul
+  hosts: 169.254.20.158
+  remote_user: root
   become: yes
-
   roles:
     - docker-host
 
