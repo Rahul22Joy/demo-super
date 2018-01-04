@@ -3,9 +3,12 @@
   with_items:
     - { src: 'killhup.sh', dest: '/home/rahul/killhup.sh' }
     - { src: 'simnet.rules', dest: '/opt/IBM/tivoli/netcool/omnibus/probes/linux2x86/simnet.rules' }
+
 - name: Granting permission to execute killhup to the probe
   command: chmod 777 /home/rahul/killhup.sh
+
 - name: Performng the Syntax check of the probe
   command: /opt/IBM/tivoli/netcool/omnibus/probes/nco_p_syntax -rulesfile /opt/IBM/tivoli/netcool/omnibus/probes/linux2x86/simnet.rules -server SUPER_OBJ
+
 - name: execute the reload command
   command: /home/rahul/killhup.sh
