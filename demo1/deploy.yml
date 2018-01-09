@@ -1,10 +1,10 @@
 ---
-- name: deploy ELK
+- name: deploy probe rules 
   tags:
-    - elk
+    - probe
   hosts: 169.254.20.158
   remote_user: root
   become: yes
   roles:
-    - docker-host
+    - probe
 
