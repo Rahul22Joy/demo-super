@@ -1,5 +1,5 @@
 ---
-- name: deploy probe rules 
+- name: Deploy Probe Rules 
   tags:
     - probe
   hosts: 169.254.20.158
