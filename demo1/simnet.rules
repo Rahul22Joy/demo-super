@@ -42,7 +42,7 @@ else
 	@Severity 	= $Severity
 	@Identifier 	= $Node + $Agent + $Severity + $Group
 
-	if (nmatch($Summary, "Port5 failure"))
+	if (nmatch($Summary, "Port6 failure"))
 	{
 		@AlertKey = $PortNumber
 	}
