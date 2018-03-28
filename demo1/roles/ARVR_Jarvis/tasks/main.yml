@@ -1,0 +1,5 @@
+- name: Deploying the Project Jarvis files to production
+  copy: src={{ item.src}} dest={{ item.dest}}
+  with_items:
+    - { src: 'ARVR.rules', dest: '/home/rahul/CTO/ARVR.rules' }
+

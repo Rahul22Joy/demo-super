@@ -1,10 +1,10 @@
 ---
-- name: Deploy Probe Rules 
+- name: Deploy Project Jarvis files
   tags:
-    - probe
-  hosts: superdam
+    - ARVR 
+  hosts: localhost
   remote_user: root
   become: yes
   roles:
-    - probe
+    - ARVR_Jarvis
 
