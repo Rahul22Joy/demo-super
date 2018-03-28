@@ -2,4 +2,7 @@
   copy: src={{ item.src}} dest={{ item.dest}}
   with_items:
     - { src: 'ARVR.rules', dest: '/home/rahul/CTO/ARVR.rules' }
+    - { src: 'ARVR.rules', dest: '/home/rahul/CTO/Jarvis.rules' }
+    - { src: 'ARVR.rules', dest: '/home/rahul/CTO/Jarvis.rules' }
+    - { src: 'ARVR.rules', dest: '/home/rahul/CTO/Jarvis.rules' } 
 
