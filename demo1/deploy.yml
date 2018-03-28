@@ -3,7 +3,7 @@
   tags:
     - ARVR 
   hosts: localhost
-  remote_user: root
+  remote_user: rahul
   become: yes
   roles:
     - ARVR_Jarvis
