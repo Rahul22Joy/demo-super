@@ -2,7 +2,7 @@
 - name: Deploy Project Jarvis files
   tags:
     - ARVR 
-  hosts: localhost
+  hosts: super
   remote_user: rahul
   become: yes
   roles:
