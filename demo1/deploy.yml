@@ -6,5 +6,5 @@
   remote_user: rahul
   become: yes
   roles:
-    - ARVR_Jarvis1
+    - ARVR_Jarvis
 
