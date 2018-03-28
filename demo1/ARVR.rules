@@ -13,7 +13,7 @@
 #
 #######################################################################
 
-if( match( @Manager, "ProbeWatch" ) )
+if( match( @Manager, "ProbeWatch" ) ))
 {
         switch(@Summary)
         {
